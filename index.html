@@ -56,14 +56,28 @@
         <span id="ket"> Cảm ơn bạn và hẹn ngày gặp lại!</span> 
     </div>
     <script>
-        await fetch('index.html', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    ten: form.querySelector('[name="ten"]').value,
-    loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
-  })
+document.querySelectorAll('form').forEach(form => {
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    try {
+      await fetch('https://script.google.com/macros/s/AKfycbzS2ZqHRvhToYbPs0tqNHR6g7puyPuC1E-f6n2VZLP1qgfVgm7iTWdHkoa3httInCqbSA/exec', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ten: form.querySelector('[name="ten"]').value,
+          loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
+        })
+      });
+
+      alert('Lá thư này đã được gửi đi! 📮');
+      form.reset();
+
+    } catch (err) {
+      alert('Hông được rùiiii, mình làm lại lần nữa nhaa!');
+    }
+  });
 });
-    </script>
+</script>
 </body>
 
