@@ -63,6 +63,7 @@ document.querySelectorAll('form').forEach(form => {
     try {
       await fetch('https://script.google.com/macros/s/AKfycbzS2ZqHRvhToYbPs0tqNHR6g7puyPuC1E-f6n2VZLP1qgfVgm7iTWdHkoa3httInCqbSA/exec', {
         method: 'POST',
+        mode: 'no-cors'
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ten: form.querySelector('[name="ten"]').value,
