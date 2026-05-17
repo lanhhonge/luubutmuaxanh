@@ -273,9 +273,6 @@ form button:active {
     box-shadow: none;
     color: #FF85BB;
 }
-
-
-
 @media (max-width: 600px) {
     
     .cautho pre {
@@ -305,25 +302,22 @@ form button:active {
     }
 
     form {
-        position: relative;
-        top: 0;
-        margin-top: 5%;
+        position: absolute;
+        top: 55%;
         width: 100%;
     }
 
     form span {
-        position: relative;
         font-size: 3rem;
         text-align: center;
         margin: 0;
     }
 
     form input {
-        position: relative;
-        top: 0;
         width: 60vw;
         margin-left: 20%;
         font-size: 1.2rem;
+        margin-top: 1%;
     }
 
     form textarea {
