@@ -61,9 +61,9 @@ document.querySelectorAll('form').forEach(form => {
     e.preventDefault();
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbzS2ZqHRvhToYbPs0tqNHR6g7puyPuC1E-f6n2VZLP1qgfVgm7iTWdHkoa3httInCqbSA/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbwqzX6FVXnLS15o2p-KlKs2orcDBGaZDiTBC84QH6XvFSsXuUV1uA-zztSdelB3LBH6zQ/exec', {
         method: 'POST',
-        mode: 'no-cors'
+        mode: 'no-cors',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ten: form.querySelector('[name="ten"]').value,
