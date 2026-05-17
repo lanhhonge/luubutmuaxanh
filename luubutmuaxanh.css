@@ -282,96 +282,97 @@ form button:active {
         left: 40%;
         top: 45%;
         font-size: 1.5rem; 
-        
     }
+
     #hoa {
         top: 5%;
     }
+
     .tamthu {
         margin-top: 10%;
     }
+
     .yourname {
-        position: relative;
-        height: 30vh;
+        height: 50vh;
     }
+
     .yourname .daixanh {
-        position: absolute;
         top: 0%;
     }
 
     #nenform {
-        position: absolute;
-        top: 0%;
+        top: 5%;
     }
 
     form {
-        position: absolute;
-        top: 133%;
-    }
-    form span {
-        position: absolute;
-        margin: 0% 0% 0% 41%;
-        top: 10px;
-        font-size: 1.7rem;
+        position: relative;
+        top: 0;
+        margin-top: 5%;
+        width: 100%;
     }
 
-    form input{
-        position: absolute;
-        top: 5%;
-        width: 15vw;
-        font-size: 0.8rem;
+    form span {
+        position: relative;
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    form input {
+        position: relative;
+        top: 0;
+        width: 60vw;
+        margin-left: 20%;
+        font-size: 1.2rem;
+    }
+
+    form textarea {
+        margin: 5% 0 0 5%;
+        width: 90vw;
+        height: 25vh;
+        font-size: 1rem;
+    }
+
+    form button {
+        width: 40%;
+        font-size: 1.2rem;
+        margin-left: 30%;
+        margin-top: 3%;
     }
 
     .yourname p {
-        position: absolute;
-        top: 40%;
-        font-size: 0.5rem;
-        left: 40%;
+        font-size: 0.8rem;
+        left: 25%;
+        top: 45%;
     }
 
     .khutamtinh {
-        height: 60vh;
+        height: 70vh;
+    }
+
+    .khutamtinh span {
+        font-size: 4rem;
     }
 
     #chimphai {
         bottom: 30%;
-        right: 0;
     }
 
     #chimtrai {
         bottom: 5%;
     }
+
     #giayviettay {
-
-        width: 200%;
+        width: 100%;
     }
 
-    .khutamtinh span {
-        font-size: 5rem;
-    }
-    form textarea {
-        margin-top: 46%;
-        font-size: 1rem;
-        width: 60vw;
-        height: 28vh;
-
-    }
-    form button {
-        z-index: 70;
-        width: 25%;
-        font-size: 1.2rem;
-        margin-left: 45%;
-    }
-    
     #thoket {
         width: 25%;
     }
 
     #ket {
-        top:65%;
+        top: 65%;
         font-size: 2rem;
-        left: 5%
+        left: 5%;
     }
-
 }
-
