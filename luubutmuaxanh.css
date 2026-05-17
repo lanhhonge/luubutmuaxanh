@@ -280,4 +280,6 @@ form button:active {
         width: 100%;
         overflow: hidden;
     }
+#ket {
+    left: 20%
 }
