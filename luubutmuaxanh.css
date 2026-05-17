@@ -276,8 +276,8 @@ form button:active {
 @media (max-width: 600px) {
     body {
         transform-origin: top left;
-        transform: scale(0.35);
-        width: 285%;
+        transform: scale(0.5);
+        width: 200%;
         overflow-x: hidden;
     }
 }
