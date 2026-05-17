@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+@font-face {
+    font-family: Essays1743;
+    src: url('essays1743/Essays1743-Italic.ttf') format('truetype');
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    height: 100%;
+    gap: 1px
+}
+
+#tieude {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.cautho {
+    position: relative;
+    margin-top: 10%;
+    height: 30vh;   
+}
+
+.cautho .giay {
+    position: absolute;
+    transform: (-50%,-50%);
+    top: 30%;
+    flex-direction: row;
+    display: flex;
+}
+
+.cautho .giay img{
+    width: 50%;
+    top: 30%;
+    z-index: 1;
+
+}
+
+#hoa {
+    top: 0%;
+    position: absolute;
+    width: 30%;
+    z-index: 3;
+}
+
+#mayanh {
+    position: absolute; 
+    top: 30%;         
+    right: 0;        
+    width: 30%;         
+    z-index: 5;         
+ }
+
+.cautho pre {
+    font-family: 'Essays1743';
+    color: #470000;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 3.5rem;
+    z-index: 6 !important;
+}
+
+.tamthu {
+    position: relative;
+    height:30vh;
+    margin-top: 20%;
+}
+
+.tamthu img{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+}
+
+.yourname {
+    position: relative;
+    margin-top: 30%;
+    height: 120vh;
+}
+
+.yourname .daixanh {
+    position: absolute;
+    transform: (-50%,-50%);
+    top: 30%;
+    flex-direction: row;
+    display: flex;
+}
+
+.yourname .daixanh img {
+    width: 100%;
+}
+
+#nenform {
+    position: absolute;
+    justify-items: center;
+    text-align: center;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+}
+
+.yourname .tennguoigui {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    top: 45%;
+    left: 1%;
+}
+
+form {
+    top: 322%;
+    width: 100%;
+    z-index: 90;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2px !important;
+    line-height: 1 !important;
+}
+
+form span {
+    font-family: "Italianno",cursive !important;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+    color: #470000;
+    text-align: center;
+   
+}
+
+form input {
+   font-family: "Playwrite US Trad", cursive;
+   align-items: center;
+   font-size: 2rem;
+   text-align: center;
+   margin-top: -200px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   width: 20vw;
+   border-bottom: 1px solid #470000;
+   margin-left: 40%;
+   margin-top: 1%;
+}
+
+.yourname p {
+    font-family: "Playwrite US Trad", cursive;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 42%;
+    color: #470000;
+    top: 60%;
+    margin-top: none;
+    padding: none;
+}
+
+.khutamtinh {
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+#cau {
+    position: absolute;
+    width:70%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 5;
+}
+
+#buihoa {
+    position: absolute;
+    width: 40%;
+    bottom: 0%;
+    right: 0%;
+    z-index: 7;
+}
+
+#chimphai {
+   position: absolute;
+    width: 25%;
+    bottom: 40%;
+    right: 0%;
+    z-index: 10; 
+}
+#chimtrai {
+    position: absolute;
+    width: 25%;
+    bottom: 10%;
+    left: 5%;
+    z-index: 9;
+}
+#thoket {
+    position: absolute;
+    width: 21%;
+    z-index: 30;
+    top: 10%;
+    right: 3%;
+
+}
+#giayviettay{
+    position:absolute;
+    top: 3%;
+    bottom: 55%;
+    width: 120%;
+}
+#ket {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-family: "Italianno";
+    font-size: 3rem;
+}
+
+.khutamtinh span {
+    position: absolute;
+    z-index: 25;
+    resize: none;
+    left: 10%;
+    top: 5%;
+    font-family: "Italianno";
+    font-size: 7rem;
+    color: #470000;
+    width: 100%;
+}
+.khutamtinh form {
+    position: absolute;
+    top: 15%;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+}
+
+form textarea {
+    outline-style: double;
+    border-style: double;
+    z-index: 100;
+    margin: 30% 0% 0% 5%;
+    resize: none;
+    width: 140vh;
+    height: 320px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: "Playwrite US Trad";
+    font-size: 1.7rem;
+
+}
+
+form button {
+    z-index: 101;
+    width: 200px;
+    margin: 2% 0% 0% 60%;
+    background-color: #FFCEE3;
+    border: none;
+    border-radius: 20px;
+    font-family: "Playwrite US Trad";
+    font-size: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+form button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+form button:active {
+    box-shadow: none;
+    color: #FF85BB;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    .cautho pre {
+        left: 40%;
+        top: 45%;
+        font-size: 1.5rem; 
+        
+    }
+    #hoa {
+        top: 5%;
+    }
+    .tamthu {
+        margin-top: 10%;
+    }
+    .yourname {
+        position: relative;
+        height: 30vh;
+    }
+    .yourname .daixanh {
+        position: absolute;
+        top: 0%;
+    }
+
+    #nenform {
+        position: absolute;
+        top: 0%;
+    }
+
+    form {
+        position: absolute;
+        top: 133%;
+    }
+    form span {
+        position: absolute;
+        margin: 0% 0% 0% 41%;
+        top: 10px;
+        font-size: 1.7rem;
+    }
+
+    form input{
+        position: absolute;
+        top: 5%;
+        width: 15vw;
+        font-size: 0.8rem;
+    }
+
+    .yourname p {
+        position: absolute;
+        top: 40%;
+        font-size: 0.5rem;
+        left: 40%;
+    }
+
+    .khutamtinh {
+        height: 60vh;
+    }
+
+    #chimphai {
+        bottom: 30%;
+        right: 0;
+    }
+
+    #chimtrai {
+        bottom: 5%;
+    }
+    #giayviettay {
+
+        width: 200%;
+    }
+
+    .khutamtinh span {
+        font-size: 5rem;
+    }
+    form textarea {
+        margin-top: 46%;
+        font-size: 1rem;
+        width: 60vw;
+        height: 28vh;
+
+    }
+    form button {
+        z-index: 70;
+        width: 25%;
+        font-size: 1.2rem;
+        margin-left: 45%;
+    }
+    
+    #thoket {
+        width: 25%;
+    }
+
+    #ket {
+        top:65%;
+        font-size: 2rem;
+        left: 5%
+    }
+
+}
+

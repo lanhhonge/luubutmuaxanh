@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+@font-face {
+    font-family: Essays1743;
+    src: url('essays1743/Essays1743-Italic.ttf') format('truetype');
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    height: 100%;
+}
