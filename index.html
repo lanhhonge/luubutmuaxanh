@@ -55,6 +55,15 @@
         <img id="thoket" src="thơ xuân quỳnh.png" alt="">
         <span id="ket"> Cảm ơn bạn và hẹn ngày gặp lại!</span> 
     </div>
-
+    <script>
+        await fetch('LINK_WEB_APP_CỦA_BẠN', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    ten: form.querySelector('[name="ten"]').value,
+    loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
+  })
+});
+    </script>
 </body>
 
