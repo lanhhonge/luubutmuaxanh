@@ -59,23 +59,11 @@
 document.querySelectorAll('form').forEach(form => {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-
-    try {
-      await fetch('https://script.google.com/macros/s/AKfycbzkfeF_TjhFuW7Qqjs07-wp7cv-zWrjeTcH-JxiPc-7Qp7uL2KzAfcwDOSkWfFF_NtbFQ/exec', {
-  method: 'GET',
-  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  body: new URLSearchParams({
-    ten: form.querySelector('[name="ten"]').value,
-    loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
-  }).toString()
-});
-
-      alert('Lá thư này đã được gửi đi! 📮');
-      form.reset();
-
-    } catch (err) {
-      alert('Hông được rùiiii, mình làm lại lần nữa nhaa!');
-    }
+    const ten = form.querySelector('[name="ten"]').value;
+    const loinhannhu = form.querySelector('[name="Doiloinhannhu"]').value;
+    await fetch(`https://script.google.com/macros/s/AKfycbxY9kKDnG_dm6KDVpdobC_DCRlu_v2nhUnOyq90WHpHnDlVXr8D_R2oVlhaPl0V3_7JvQ/exec?ten=${encodeURIComponent(ten)}&loinhannhu=${encodeURIComponent(loinhannhu)}`);
+    alert('Lá thư này đã được gửi đi! 📮');
+    form.reset();
   });
 });
 </script>
