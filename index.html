@@ -36,7 +36,7 @@
         <p> (dùng tên ẩn danh cũng hong sao nha)</p>
     </div>
 
-    <form id="ten-nguoi-gui" name="ten-nguoi-gui" data-netlify="true" method="POST">
+    <form id="ten-nguoi-gui" name="ten-nguoi-gui" data-netlify="true" method="GET">
                 <input type="hidden" name="form-name" value="ten-nguoi-gui" id="">
                 <span> Tên của bạn là? </span>
                 <input type="text" name="ten" >
@@ -62,7 +62,7 @@ document.querySelectorAll('form').forEach(form => {
 
     try {
       await fetch('https://script.google.com/macros/s/AKfycbzkfeF_TjhFuW7Qqjs07-wp7cv-zWrjeTcH-JxiPc-7Qp7uL2KzAfcwDOSkWfFF_NtbFQ/exec', {
-  method: 'POST',
+  method: 'GET',
   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
   body: new URLSearchParams({
     ten: form.querySelector('[name="ten"]').value,
