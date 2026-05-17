@@ -61,15 +61,15 @@ document.querySelectorAll('form').forEach(form => {
     e.preventDefault();
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbz_9QupXweywLUoDkPwkmiKt9OHIEM0wTx4iyKqNeqScz3LwxMgGHAqHgiBuMYRmpO1WA/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbxOky4B2naWquNC7ZfafpC2cMryJdw70vldAGkwfF4y4VYNRpCM9xa9WHpP1ymO_6dE8A/exec', {
         method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ten: form.querySelector('[name="ten"]').value,
-          loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
-        })
-      });
+  mode: 'no-cors',
+  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  body: new URLSearchParams({
+    ten: form.querySelector('[name="ten"]').value,
+    loinhannhu: form.querySelector('[name="Doiloinhannhu"]').value
+  }).toString()
+});
 
       alert('Lá thư này đã được gửi đi! 📮');
       form.reset();
