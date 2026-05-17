@@ -62,7 +62,8 @@ document.querySelectorAll('form').forEach(form => {
     const ten = form.querySelector('[name="ten"]').value;
     const loinhannhu = form.querySelector('[name="Doiloinhannhu"]').value;
     await fetch(`https://script.google.com/macros/s/AKfycbxY9kKDnG_dm6KDVpdobC_DCRlu_v2nhUnOyq90WHpHnDlVXr8D_R2oVlhaPl0V3_7JvQ/exec?ten=${encodeURIComponent(ten)}&loinhannhu=${encodeURIComponent(loinhannhu)}`);
-    alert('Lá thư này đã được gửi đi! 📮');
+     mode: 'no-cors';
+      alert('Lá thư này đã được gửi đi! 📮');
     form.reset();
   });
 });
