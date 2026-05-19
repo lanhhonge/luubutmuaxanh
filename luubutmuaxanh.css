@@ -275,6 +275,13 @@ form button:active {
 }
 @media (max-width: 600px) {
     body {
-        zoom: 0.4;
+        zoom: 0.6;
     }
+
+    .cautho pre {
+        top: 70%;}
+    .yourname p {
+        top: 50%; }
+    
+        
 }
