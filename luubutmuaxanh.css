@@ -288,7 +288,7 @@ form button:active {
         top: 60%;
         left: 50%;
         width: 80%;
-        white-space: normal;
+        white-space: pre;
         text-align: center;
     }
 
