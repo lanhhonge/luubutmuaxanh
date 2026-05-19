@@ -279,39 +279,37 @@ form button:active {
         overflow-x: hidden;
     }
 
-    #tieude {
-        width: 100%;
-    }
-
     .cautho {
-        height: 50vw;
-        margin-top: 5%;
+        height: 60vw;
     }
 
     .cautho pre {
-        font-size: 3.5rem;
-        top: 60%;
+        font-size: 2rem;
+        top: 70%;
         left: 50%;
+        width: 80%;
+        white-space: normal;
+        text-align: center;
     }
 
     .tamthu {
         height: 50vw;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .yourname {
-        height: 150vw;
-        margin-top: 10%;
+        height: 120vw;
+        margin-top: 5%;
     }
 
     #nenform {
-        top: 20%;
+        top: 15%;
         left: 5%;
         width: 90%;
     }
 
     form {
-        top: 280%;
+        top: 260%;
     }
 
     form span {
@@ -326,13 +324,13 @@ form button:active {
 
     .yourname p {
         font-size: 1rem;
-        left: 30%;
-        top: 55%;
+        left: 20%;
+        top: 50%;
     }
 
     .khutamtinh {
-        height: 150vw;
-        overflow: visible;
+        height: 180vw;
+        overflow: hidden;
     }
 
     .khutamtinh span {
@@ -341,28 +339,39 @@ form button:active {
 
     #giayviettay {
         width: 100%;
+        top: 0;
     }
 
     form textarea {
         width: 85vw;
-        height: 30vw;
-        margin: 20% 0 0 5%;
+        height: 40vw;
+        margin: 15% 0 0 5%;
         font-size: 1.2rem;
     }
 
     form button {
-        width: 30%;
+        width: 35%;
         font-size: 1.5rem;
-        margin-left: 35%;
+        margin-left: 33%;
+        margin-top: 5%;
     }
 
     #ket {
-        font-size: 2.5rem;
-        left: 20%;
-        top: 75%;
+        font-size: 2rem;
+        left: 10%;
+        top: 80%;
     }
 
     #thoket {
-        width: 30%;
+        width: 25%;
+        top: 5%;
+    }
+
+    #chimphai {
+        bottom: 25%;
+    }
+
+    #chimtrai {
+        bottom: 3%;
     }
 }
