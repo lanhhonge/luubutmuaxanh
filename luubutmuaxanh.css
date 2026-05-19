@@ -284,8 +284,8 @@ form button:active {
     }
 
     .cautho pre {
-        font-size: 2rem;
-        top: 70%;
+        font-size: 1rem;
+        top: 60%;
         left: 50%;
         width: 80%;
         white-space: normal;
@@ -303,9 +303,9 @@ form button:active {
     }
 
     #nenform {
-        top: 15%;
+        top: 30%;
         left: 5%;
-        width: 90%;
+        width: 100%;
     }
 
     form {
