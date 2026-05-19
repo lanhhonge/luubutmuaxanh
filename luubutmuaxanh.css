@@ -277,30 +277,26 @@ form button:active {
     body {
         zoom: 0.55;
     }
-    
-    #tieude {
-        zoom: 1.8;
-    }
-    
-    .tamthu {
-        zoom: 1.8;
-    }
-    
-    .yourname {
-        zoom: 1.8;
-    }
-    
-    form {
-        zoom: 1.8;
-    }
-    
-    .khutamtinh {
-        zoom: 1.8;
-        height: 150vh;
-    }
-    
     .cautho pre {
-        zoom: 1;
-        font-size: 3.5rem;
-    }
+        font-size: 1rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
 }
