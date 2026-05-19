@@ -287,7 +287,8 @@ form button:active {
 
     .yourname p {
         font-size: 0.7rem;
-        top: 30%;
+        top: 50%;
+        text-align:center;
     }
     #nenform {
         width: 100%;
@@ -295,7 +296,7 @@ form button:active {
         left: 0%
     }
     form {
-        top: 160%;
+        top: 161%;
         left: 0%;
         width: 100%   
     }
@@ -335,7 +336,7 @@ form button:active {
     }
 
     form textarea {
-        margin: 75% 0% 0% 5%;
+        margin: 70% 0% 0% 5%;
         width: 60vw;
         height: 40vh;
         font-size: 1.2rem;
