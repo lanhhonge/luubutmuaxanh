@@ -273,30 +273,3 @@ form button:active {
     box-shadow: none;
     color: #FF85BB;
 }
-@media (max-width: 600px) {
-    body {
-        zoom: 0.55;
-    }
-    .cautho pre {
-        font-size: 1rem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    
-}
