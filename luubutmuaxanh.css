@@ -276,7 +276,13 @@ form button:active {
 
 @media (max-width: 420px) {
     .cautho pre {
-        font-size: 2rem;
+        font-size: 3rem;
+        left: 30%;
+    }
+
+    .yourname p {
+        font-size: 0.7rem;
+        
     }
 
 
