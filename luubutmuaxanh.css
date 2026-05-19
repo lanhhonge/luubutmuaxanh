@@ -273,3 +273,96 @@ form button:active {
     box-shadow: none;
     color: #FF85BB;
 }
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #tieude {
+        width: 100%;
+    }
+
+    .cautho {
+        height: 50vw;
+        margin-top: 5%;
+    }
+
+    .cautho pre {
+        font-size: 3.5rem;
+        top: 60%;
+        left: 50%;
+    }
+
+    .tamthu {
+        height: 50vw;
+        margin-top: 10%;
+    }
+
+    .yourname {
+        height: 150vw;
+        margin-top: 10%;
+    }
+
+    #nenform {
+        top: 20%;
+        left: 5%;
+        width: 90%;
+    }
+
+    form {
+        top: 280%;
+    }
+
+    form span {
+        font-size: 4rem;
+    }
+
+    form input {
+        width: 50vw;
+        margin-left: 25%;
+        font-size: 1.5rem;
+    }
+
+    .yourname p {
+        font-size: 1rem;
+        left: 30%;
+        top: 55%;
+    }
+
+    .khutamtinh {
+        height: 150vw;
+        overflow: visible;
+    }
+
+    .khutamtinh span {
+        font-size: 5rem;
+    }
+
+    #giayviettay {
+        width: 100%;
+    }
+
+    form textarea {
+        width: 85vw;
+        height: 30vw;
+        margin: 20% 0 0 5%;
+        font-size: 1.2rem;
+    }
+
+    form button {
+        width: 30%;
+        font-size: 1.5rem;
+        margin-left: 35%;
+    }
+
+    #ket {
+        font-size: 2.5rem;
+        left: 20%;
+        top: 75%;
+    }
+
+    #thoket {
+        width: 30%;
+    }
+}
