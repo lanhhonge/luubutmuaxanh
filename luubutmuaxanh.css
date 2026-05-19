@@ -274,104 +274,18 @@ form button:active {
     color: #FF85BB;
 }
 
-@media (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .cautho {
-        height: 60vw;
-    }
-
+@media (max-width: 420px) {
     .cautho pre {
-        font-size: 1rem;
-        top: 60%;
-        left: 50%;
-        width: 80%;
-        white-space: pre;
-        text-align: center;
-    }
-
-    .tamthu {
-        height: 50vw;
-        margin-top: 5%;
-    }
-
-    .yourname {
-        height: 120vw;
-        margin-top: 5%;
-    }
-
-    #nenform {
-        top: 30%;
-        left: 5%;
-        width: 100%;
-    }
-
-    form {
-        top: 100%;
-    }
-
-    form span {
-        font-size: 4rem;
-    }
-
-    form input {
-        width: 50vw;
-        margin-left: 25%;
-        font-size: 1.5rem;
-    }
-
-    .yourname p {
-        font-size: 1rem;
-        left: 20%;
-        top: 50%;
-    }
-
-    .khutamtinh {
-        height: 180vw;
-        overflow: hidden;
-    }
-
-    .khutamtinh span {
-        font-size: 5rem;
-    }
-
-    #giayviettay {
-        width: 100%;
-        top: 0;
-    }
-
-    form textarea {
-        width: 85vw;
-        height: 40vw;
-        margin: 15% 0 0 5%;
-        font-size: 1.2rem;
-    }
-
-    form button {
-        width: 35%;
-        font-size: 1.5rem;
-        margin-left: 33%;
-        margin-top: 5%;
-    }
-
-    #ket {
         font-size: 2rem;
-        left: 10%;
-        top: 80%;
     }
 
-    #thoket {
-        width: 25%;
-        top: 5%;
-    }
 
-    #chimphai {
-        bottom: 25%;
-    }
 
-    #chimtrai {
-        bottom: 3%;
-    }
+
+
+
+
+
+
+        
 }
