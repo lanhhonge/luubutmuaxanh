@@ -275,13 +275,32 @@ form button:active {
 }
 @media (max-width: 600px) {
     body {
-        zoom: 0.6;
+        zoom: 0.55;
     }
-
-    .cautho pre {
-        top: 70%;}
-    .yourname p {
-        top: 50%; }
     
-        
+    #tieude {
+        zoom: 1.8;
+    }
+    
+    .tamthu {
+        zoom: 1.8;
+    }
+    
+    .yourname {
+        zoom: 1.8;
+    }
+    
+    form {
+        zoom: 1.8;
+    }
+    
+    .khutamtinh {
+        zoom: 1.8;
+        height: 150vh;
+    }
+    
+    .cautho pre {
+        zoom: 1;
+        font-size: 3.5rem;
+    }
 }
